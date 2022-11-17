@@ -1,6 +1,1 @@
-export const privateRoutes = {
-  profile: {
-    name: "profile",
-    path: "/profile",
-  },
-};
+export const privateRoutes = {};

@@ -1,15 +1,16 @@
 import { publicRoutes } from "routes";
-import { AiOutlineLogin, AiOutlineUserAdd } from "react-icons/ai";
 
 export const navLinks = [
   {
-    path: publicRoutes.signIn.path,
-    name: publicRoutes.signIn.name,
-    Icon: AiOutlineLogin,
+    path: publicRoutes.shopPlants.path,
+    name: publicRoutes.shopPlants.name,
   },
   {
-    path: publicRoutes.signUp.path,
-    name: publicRoutes.signUp.name,
-    Icon: AiOutlineUserAdd,
+    path: publicRoutes.plantCare.path,
+    name: publicRoutes.plantCare.name,
+  },
+  {
+    path: publicRoutes.faq.path,
+    name: publicRoutes.faq.name,
   },
 ];
