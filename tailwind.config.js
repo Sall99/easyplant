@@ -8,6 +8,10 @@ module.exports = {
         primary: {},
         gray: {
           100: "var(--gray-100)",
+          200: "var(--gray-200)",
+        },
+        green: {
+          100: "var(--green-100)",
         },
       },
       backgroundImage: {
@@ -16,22 +20,28 @@ module.exports = {
       fontFamily: {
         fraunes: ["Fraunces", "serif"],
       },
+      fontSize: {
+        _66: ["66px", "76px"],
+      },
+
+      letterSpacing: {
+        _1: "1px",
+        _2: "2px",
+      },
       lineHeight: {
         "_17.26": "17.26px",
       },
       borderRadius: {
-        xs: "0.2rem",
-        sm: "0.4rem",
-        md: "0.6rem",
-        lg: "0.8rem",
-        xl: "1rem",
-        "2xl": "1.2rem",
+        _6: "6px",
       },
       maxWidth: {
         _1140: "1140px",
       },
       spacing: {
+        _6: "6px",
+        _132: "132px",
         _700: "700px",
+        _592: "592px",
       },
     },
   },
