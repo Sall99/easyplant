@@ -3,12 +3,20 @@ export const publicRoutes = {
     name: "home",
     path: "/",
   },
-  signIn: {
-    path: "/sign-in",
-    name: "Sign in",
+  shopPlants: {
+    name: "Shop Plants",
+    path: "/shop-plants",
   },
-  signUp: {
-    path: "/sign-up",
-    name: "Sign up",
+  plantCare: {
+    name: "Plant Care",
+    path: "/plant-care",
+  },
+  faq: {
+    name: "FAQ",
+    path: "/faq",
+  },
+  cart: {
+    name: "Cart",
+    path: "/cart",
   },
 };

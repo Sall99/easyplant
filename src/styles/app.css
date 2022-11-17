@@ -454,14 +454,38 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.m-auto {
+  margin: auto;
+}
 .mb-4 {
   margin-bottom: 1rem;
+}
+.flex {
+  display: flex;
 }
 .contents {
   display: contents;
 }
+.h-_700 {
+  height: 700px;
+}
 .w-full {
   width: 100%;
+}
+.max-w-_1140 {
+  max-width: 1140px;
+}
+.items-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.gap-5 {
+  gap: 1.25rem;
+}
+.gap-2 {
+  gap: 0.5rem;
 }
 .border-b {
   border-bottom-width: 1px;
@@ -477,9 +501,18 @@ video {
 .border-opacity-90 {
   --tw-border-opacity: 0.9;
 }
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+.bg-hero-pattern {
+  background-image: url('/public/img/Hero.png');
+}
+.bg-cover {
+  background-size: cover;
+}
+.bg-center {
+  background-position: center;
+}
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 .text-sm {
   font-size: 0.875rem;
@@ -489,9 +522,14 @@ video {
   font-size: 0.75rem;
   line-height: 1rem;
 }
+.font-normal {
+  font-weight: 400;
+}
+.leading-_17\.26 {
+  line-height: 17.26px;
+}
 .text-gray-100 {
-  --tw-text-opacity: 1;
-  color: rgb(243 244 246 / var(--tw-text-opacity));
+  color: var(--gray-100);
 }
 .text-red-400 {
   --tw-text-opacity: 1;
@@ -506,8 +544,10 @@ video {
 }
 
 :root {
+  --gray-100: rgba(77, 76, 74, 1);
 }
 body {
+  font-family: "Fraunces", serif;
 }
 .focus\:outline-none:focus {
   outline: 2px solid transparent;

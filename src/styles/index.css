@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 :root {
+  --gray-100: rgba(77, 76, 74, 1);
 }
 body {
+  font-family: "Fraunces", serif;
 }
