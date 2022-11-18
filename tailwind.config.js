@@ -22,6 +22,7 @@ module.exports = {
       },
       fontSize: {
         _66: ["66px", "76px"],
+        _40: ["40px", "61.65px"],
       },
 
       letterSpacing: {
@@ -39,7 +40,12 @@ module.exports = {
       },
       spacing: {
         _6: "6px",
+        _73: "73px",
+        _100: "100px",
         _132: "132px",
+        _200: "200px",
+        _270: "270px",
+        _314: "314px",
         _700: "700px",
         _592: "592px",
       },
