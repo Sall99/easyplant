@@ -457,11 +457,20 @@ video {
 .m-auto {
   margin: auto;
 }
+.mt-_73 {
+  margin-top: 73px;
+}
+.mt-_100 {
+  margin-top: 100px;
+}
 .mb-4 {
   margin-bottom: 1rem;
 }
 .mt-_132 {
   margin-top: 132px;
+}
+.mt-14 {
+  margin-top: 3.5rem;
 }
 .flex {
   display: flex;
@@ -469,11 +478,14 @@ video {
 .contents {
   display: contents;
 }
+.h-12 {
+  height: 3rem;
+}
 .h-_700 {
   height: 700px;
 }
-.h-12 {
-  height: 3rem;
+.h-_314 {
+  height: 314px;
 }
 .w-full {
   width: 100%;
@@ -483,6 +495,9 @@ video {
 }
 .w-60 {
   width: 15rem;
+}
+.w-_270 {
+  width: 270px;
 }
 .max-w-_1140 {
   max-width: 1140px;
@@ -499,14 +514,14 @@ video {
 .justify-between {
   justify-content: space-between;
 }
+.gap-_100 {
+  gap: 100px;
+}
 .gap-5 {
   gap: 1.25rem;
 }
 .gap-2 {
   gap: 0.5rem;
-}
-.gap-7 {
-  gap: 1.75rem;
 }
 .gap-9 {
   gap: 2.25rem;
@@ -539,10 +554,6 @@ video {
 .bg-center {
   background-position: center;
 }
-.py-_6 {
-  padding-top: 6px;
-  padding-bottom: 6px;
-}
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -550,9 +561,17 @@ video {
 .text-center {
   text-align: center;
 }
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+.text-_40 {
+  font-size: 40px;
+  line-height: 61.65px;
 }
 .text-xs {
   font-size: 0.75rem;
@@ -562,24 +581,27 @@ video {
   font-size: 66px;
   line-height: 76px;
 }
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-.font-normal {
-  font-weight: 400;
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 .font-semibold {
   font-weight: 600;
 }
-.leading-_17\.26 {
-  line-height: 17.26px;
+.font-normal {
+  font-weight: 400;
 }
 .leading-5 {
   line-height: 1.25rem;
 }
+.leading-_17\.26 {
+  line-height: 17.26px;
+}
 .-tracking-_2 {
   letter-spacing: -2px;
+}
+.text-gray-200 {
+  color: var(--gray-200);
 }
 .text-white {
   --tw-text-opacity: 1;
@@ -591,9 +613,6 @@ video {
 .text-red-400 {
   --tw-text-opacity: 1;
   color: rgb(248 113 113 / var(--tw-text-opacity));
-}
-.text-gray-200 {
-  color: var(--gray-200);
 }
 .opacity-90 {
   opacity: 0.9;
