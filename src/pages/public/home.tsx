@@ -21,7 +21,7 @@ export const Home = () => {
               key={key}
               className="w-_270 h-_314 flex-col justify-center items-center text-center"
             >
-              <Icon name={img} />
+              <img src={img} alt={name} />
               <p className="text-base font-semibold mt-4">{name}</p>
             </div>
           ))}
