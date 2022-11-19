@@ -38,14 +38,32 @@ export const Home = () => {
               className="flex flex-col items-center justify-center"
             >
               <div>
-                <p className="text-sm font-normal flex justify-center mb-4 gap-2">
+                <div className="text-sm font-normal flex justify-center mb-4 gap-2">
                   <Icon name={icon} />
-                  <span>{name}</span>
-                </p>
-                <Icon name={img} />
+                  <p>{name}</p>
+                </div>
+                <img src={img} alt={name} />
               </div>
             </div>
           ))}
+        </div>
+      </div>
+      <div className="max-w-_1140 h-_371 bg-gray-300 m-auto mt-_172 text-gray-200 rounded ">
+        <div className="relative">
+          <div className="w-_409 ml-_102 mt-_112 absolute -top-4">
+            <h2 className="font-semibold text-_40">
+              Beautiful plants, <br /> free shipping
+            </h2>
+            <p className="text-sm">
+              Your plants are guaranteed to arrive in a <br /> healthy condition
+              - If not, we will replace <br /> them for free.
+            </p>
+          </div>
+          <img
+            src="/img/box.png"
+            alt="Box with plants"
+            className="absolute right-0 -top-_202"
+          />
         </div>
       </div>
     </section>

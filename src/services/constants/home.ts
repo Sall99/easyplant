@@ -24,7 +24,19 @@ export const shopIndoorItems = [
 ];
 
 export const selfWateringItems = [
-  { icon: "1", img: "Simply", name: "Simply open the lid and fill with water" },
-  { icon: "2", img: "ThePlant", name: "The plant drinks only when it needs" },
-  { icon: "2", img: "GetHealthy", name: "Get healthy worry-free plant " },
+  {
+    icon: "1",
+    img: "/img/Simply.png",
+    name: "Simply open the lid and fill with water",
+  },
+  {
+    icon: "2",
+    img: "/img/ThePlant.png",
+    name: "The plant drinks only when it needs",
+  },
+  {
+    icon: "2",
+    img: "/img/GetHealthy.png",
+    name: "Get healthy worry-free plant",
+  },
 ];
