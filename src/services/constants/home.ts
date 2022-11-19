@@ -22,3 +22,9 @@ export const shopIndoorItems = [
   { img: "ShopLarge", name: "Shop large" },
   { img: "ShopHuge", name: "Shop huge" },
 ];
+
+export const selfWateringItems = [
+  { icon: "1", img: "Simply", name: "Simply open the lid and fill with water" },
+  { icon: "2", img: "ThePlant", name: "The plant drinks only when it needs" },
+  { icon: "2", img: "GetHealthy", name: "Get healthy worry-free plant " },
+];
