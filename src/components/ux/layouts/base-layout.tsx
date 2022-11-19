@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { Footer } from "./footer";
 import { Header } from "./header";
 
 export interface BaseLayoutProps {
@@ -10,6 +11,7 @@ export const BaseLayout: FC<BaseLayoutProps> = ({ children }) => {
     <>
       <Header />
       <main>{children}</main>
+      <Footer />
     </>
   );
 };

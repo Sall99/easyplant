@@ -5,7 +5,7 @@ export const publicRoutes = {
   },
   shopPlants: {
     name: "Shop Plants",
-    path: "/shop-plants",
+    path: "/shop",
   },
   plantCare: {
     name: "Plant Care",
@@ -18,5 +18,21 @@ export const publicRoutes = {
   cart: {
     name: "Cart",
     path: "/cart",
+  },
+  contact: {
+    name: "Talk to us",
+    path: "/contact",
+  },
+  about: {
+    name: "About Easyplant",
+    path: "/about",
+  },
+  privacyPolicy: {
+    name: "Privacy Policy",
+    path: "/privacy-policy",
+  },
+  termsAndUse: {
+    name: "Terms and Use",
+    path: "/terms-and-use",
   },
 };

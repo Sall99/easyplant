@@ -1,3 +1,5 @@
+import { publicRoutes } from "routes";
+
 export const homeHeader = [
   {
     title: "Free shipping",
@@ -17,10 +19,10 @@ export const homeHeader = [
 ];
 
 export const shopIndoorItems = [
-  { img: "ShopSmall", name: "Shop small" },
-  { img: "ShopMedium", name: "Shop medium" },
-  { img: "ShopLarge", name: "Shop large" },
-  { img: "ShopHuge", name: "Shop huge" },
+  { img: "/img/ShopSmall.png", name: "Shop small" },
+  { img: "/img/ShopMedium.png", name: "Shop medium" },
+  { img: "/img/ShopLarge.png", name: "Shop large" },
+  { img: "/img/ShopHuge.png", name: "Shop huge" },
 ];
 
 export const selfWateringItems = [
@@ -39,4 +41,12 @@ export const selfWateringItems = [
     img: "/img/GetHealthy.png",
     name: "Get healthy worry-free plant",
   },
+];
+
+export const footerLinks = [
+  { name: "Home", link: publicRoutes.home.path },
+  { name: "Shop plants", link: publicRoutes.shopPlants.path },
+  { name: "FAQ", link: publicRoutes.faq.path },
+  { name: "Talk to us", link: publicRoutes.contact.path },
+  { name: "About us", link: publicRoutes.about.path },
 ];
