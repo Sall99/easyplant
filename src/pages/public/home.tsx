@@ -1,5 +1,5 @@
 import { Icon } from "components";
-import { homeHeader, shopIndoorItems } from "services";
+import { homeHeader, selfWateringItems, shopIndoorItems } from "services";
 
 export const Home = () => {
   return (
@@ -22,7 +22,28 @@ export const Home = () => {
               className="w-_270 h-_314 flex-col justify-center items-center text-center"
             >
               <Icon name={img} />
-              <p className="text-base font-semibold">{name}</p>
+              <p className="text-base font-semibold mt-4">{name}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="mt-_114 text-gray-200">
+        <h2 className="text-_40 font-semibold text-center mb-7">
+          How self-watering works?
+        </h2>
+        <div className="flex items-center justify-center gap-4">
+          {selfWateringItems.map(({ name, img, icon }, key) => (
+            <div
+              key={key}
+              className="flex flex-col items-center justify-center"
+            >
+              <div>
+                <p className="text-sm font-normal flex justify-center mb-4 gap-2">
+                  <Icon name={icon} />
+                  <span>{name}</span>
+                </p>
+                <Icon name={img} />
+              </div>
             </div>
           ))}
         </div>
