@@ -7,10 +7,13 @@
   --gray-100: rgba(77, 76, 74, 1);
   --gray-200: rgba(65, 52, 45, 1);
   --gray-300: rgba(245, 241, 234, 1);
+  --gray-400: rgba(255, 252, 249, 1);
 
   /* Green */
   --green-100: rgba(71, 99, 78, 1);
+  --green-200: rgba(237, 240, 237, 1);
 }
 body {
   font-family: "Fraunces", serif;
+  background-color: var(--gray-400);
 }
