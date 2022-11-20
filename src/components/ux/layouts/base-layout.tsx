@@ -4,12 +4,13 @@ import { Header } from "./header";
 
 export interface BaseLayoutProps {
   children: React.ReactNode;
+  hero: boolean;
 }
 
-export const BaseLayout: FC<BaseLayoutProps> = ({ children }) => {
+export const BaseLayout: FC<BaseLayoutProps> = ({ children, hero }) => {
   return (
     <>
-      <Header />
+      <Header hero={hero} />
       <main>{children}</main>
       <Footer />
     </>
