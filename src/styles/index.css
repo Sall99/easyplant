@@ -12,6 +12,9 @@
   /* Green */
   --green-100: rgba(71, 99, 78, 1);
   --green-200: rgba(237, 240, 237, 1);
+
+  /* Pink */
+  --pink-100: rgba(248, 236, 228, 1);
 }
 body {
   font-family: "Fraunces", serif;

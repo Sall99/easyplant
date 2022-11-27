@@ -2,6 +2,8 @@
 /* eslint-disable no-unused-vars */
 export interface IconProps {
   name: string;
+  className?: string;
+  onClick?: () => void;
 }
 
 export interface ButtonProps {
