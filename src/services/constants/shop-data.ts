@@ -12,6 +12,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 2,
@@ -26,6 +27,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 3,
@@ -40,6 +42,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 4,
@@ -54,6 +57,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 5,
@@ -68,6 +72,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 6,
@@ -82,6 +87,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 7,
@@ -96,6 +102,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 8,
@@ -110,6 +117,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 9,
@@ -124,6 +132,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 10,
@@ -138,6 +147,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 11,
@@ -152,6 +162,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 12,
@@ -166,6 +177,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 13,
@@ -180,6 +192,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 14,
@@ -194,6 +207,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 15,
@@ -208,6 +222,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 16,
@@ -222,6 +237,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 17,
@@ -236,6 +252,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 18,
@@ -250,6 +267,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 19,
@@ -264,6 +282,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 20,
@@ -278,6 +297,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 21,
@@ -292,6 +312,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 22,
@@ -306,6 +327,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 23,
@@ -320,6 +342,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 24,
@@ -334,6 +357,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 25,
@@ -348,6 +372,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 26,
@@ -362,6 +387,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 27,
@@ -376,6 +402,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 28,
@@ -390,6 +417,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 29,
@@ -404,6 +432,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 30,
@@ -418,6 +447,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 31,
@@ -432,6 +462,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 32,
@@ -446,6 +477,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 33,
@@ -460,6 +492,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 34,
@@ -474,6 +507,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 35,
@@ -488,6 +522,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 36,
@@ -502,6 +537,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 37,
@@ -516,6 +552,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 38,
@@ -530,6 +567,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 39,
@@ -544,6 +582,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 40,
@@ -558,6 +597,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 41,
@@ -572,6 +612,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 42,
@@ -586,6 +627,7 @@ export const smallPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
 ];
 
@@ -603,6 +645,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 2,
@@ -617,6 +660,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 3,
@@ -631,6 +675,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 4,
@@ -645,6 +690,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 5,
@@ -659,6 +705,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 6,
@@ -673,6 +720,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 7,
@@ -687,6 +735,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 8,
@@ -701,6 +750,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
 
   {
@@ -716,6 +766,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 10,
@@ -730,6 +781,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 11,
@@ -744,6 +796,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 12,
@@ -758,6 +811,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 13,
@@ -772,6 +826,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 14,
@@ -786,6 +841,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 15,
@@ -800,6 +856,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 16,
@@ -814,6 +871,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 17,
@@ -828,6 +886,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 18,
@@ -842,6 +901,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 19,
@@ -856,6 +916,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 20,
@@ -870,6 +931,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 21,
@@ -884,6 +946,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 22,
@@ -898,6 +961,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 23,
@@ -912,6 +976,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 24,
@@ -926,6 +991,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 25,
@@ -940,6 +1006,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 26,
@@ -954,6 +1021,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 27,
@@ -968,6 +1036,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 28,
@@ -982,6 +1051,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 29,
@@ -996,6 +1066,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 30,
@@ -1010,6 +1081,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 31,
@@ -1024,6 +1096,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 32,
@@ -1038,6 +1111,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 33,
@@ -1052,6 +1126,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 34,
@@ -1066,6 +1141,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 35,
@@ -1080,6 +1156,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 36,
@@ -1094,6 +1171,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 37,
@@ -1108,6 +1186,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 38,
@@ -1122,6 +1201,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 39,
@@ -1136,6 +1216,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 40,
@@ -1150,6 +1231,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 41,
@@ -1164,6 +1246,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 42,
@@ -1178,6 +1261,7 @@ export const mediumPlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
 ];
 export const largePlantImages = [
@@ -1194,6 +1278,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 2,
@@ -1208,6 +1293,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 3,
@@ -1222,6 +1308,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 4,
@@ -1236,6 +1323,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 5,
@@ -1250,6 +1338,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 6,
@@ -1264,6 +1353,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
 
   {
@@ -1279,6 +1369,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 8,
@@ -1293,6 +1384,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 9,
@@ -1307,6 +1399,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 10,
@@ -1321,6 +1414,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 11,
@@ -1335,6 +1429,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 12,
@@ -1349,6 +1444,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 13,
@@ -1363,6 +1459,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 14,
@@ -1377,6 +1474,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 15,
@@ -1391,6 +1489,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 16,
@@ -1405,6 +1504,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 17,
@@ -1419,6 +1519,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 18,
@@ -1433,6 +1534,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 19,
@@ -1447,6 +1549,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 20,
@@ -1461,6 +1564,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 21,
@@ -1475,6 +1579,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 22,
@@ -1489,6 +1594,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 23,
@@ -1503,6 +1609,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 24,
@@ -1517,6 +1624,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 25,
@@ -1531,6 +1639,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 26,
@@ -1545,6 +1654,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 27,
@@ -1559,6 +1669,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 28,
@@ -1573,6 +1684,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 29,
@@ -1587,6 +1699,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 30,
@@ -1601,6 +1714,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 31,
@@ -1615,6 +1729,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 32,
@@ -1629,6 +1744,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 33,
@@ -1643,6 +1759,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 34,
@@ -1657,6 +1774,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 35,
@@ -1671,6 +1789,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 36,
@@ -1685,6 +1804,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 37,
@@ -1699,6 +1819,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 38,
@@ -1713,6 +1834,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 39,
@@ -1727,6 +1849,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 40,
@@ -1741,6 +1864,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 41,
@@ -1755,6 +1879,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 42,
@@ -1769,6 +1894,7 @@ export const largePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
 ];
 export const hugePlantImages = [
@@ -1785,6 +1911,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 2,
@@ -1799,6 +1926,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 3,
@@ -1813,6 +1941,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 4,
@@ -1827,6 +1956,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 5,
@@ -1841,6 +1971,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 6,
@@ -1855,6 +1986,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 7,
@@ -1869,6 +2001,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 8,
@@ -1883,6 +2016,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 9,
@@ -1897,6 +2031,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 10,
@@ -1911,6 +2046,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 11,
@@ -1925,6 +2061,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 12,
@@ -1939,6 +2076,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 13,
@@ -1953,6 +2091,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 14,
@@ -1967,6 +2106,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 15,
@@ -1981,6 +2121,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 16,
@@ -1995,6 +2136,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 17,
@@ -2009,6 +2151,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 18,
@@ -2023,6 +2166,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 19,
@@ -2037,6 +2181,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 20,
@@ -2051,6 +2196,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 21,
@@ -2065,6 +2211,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 22,
@@ -2079,6 +2226,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 23,
@@ -2093,6 +2241,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 24,
@@ -2107,6 +2256,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 25,
@@ -2121,6 +2271,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 26,
@@ -2135,6 +2286,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 27,
@@ -2149,6 +2301,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 28,
@@ -2163,6 +2316,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 29,
@@ -2177,6 +2331,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 30,
@@ -2191,6 +2346,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 31,
@@ -2205,6 +2361,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 32,
@@ -2219,6 +2376,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 33,
@@ -2233,6 +2391,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 34,
@@ -2247,6 +2406,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 35,
@@ -2261,6 +2421,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 36,
@@ -2275,6 +2436,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 37,
@@ -2289,6 +2451,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 38,
@@ -2303,6 +2466,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 39,
@@ -2317,6 +2481,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 40,
@@ -2331,6 +2496,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 41,
@@ -2345,6 +2511,7 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
   {
     id: 42,
@@ -2359,5 +2526,6 @@ export const hugePlantImages = [
     title: "White Bird of Paradise",
     description: "The window to the sun",
     colors: ["#E8CDCD", "#F7E4D4", "#B1A999", "#D9D9C6", "#21304D"],
+    price: 49,
   },
 ];
