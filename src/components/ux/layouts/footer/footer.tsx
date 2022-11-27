@@ -22,7 +22,7 @@ export const Footer = () => {
         </Link>
       </div>
       <p className="text-center text-xs mt-10 sm:mt-4">
-        Patent - Copyright © 2022 - <strong>sallaboudaouda@gmail.com</strong>
+        Patent - Copyright © 2022 - sallaboudaouda@gmail.com
       </p>
     </footer>
   );

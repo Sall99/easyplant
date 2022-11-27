@@ -1,7 +1,10 @@
 /* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
     extend: {
       colors: {
@@ -15,6 +18,9 @@ module.exports = {
         green: {
           100: "var(--green-100)",
           200: "var(--green-200)",
+        },
+        pink: {
+          100: "var(--pink-100)",
         },
       },
       backgroundImage: {
@@ -37,6 +43,7 @@ module.exports = {
       },
       borderRadius: {
         _6: "6px",
+        _30: "30px",
       },
       maxWidth: {
         _1140: "1140px",
@@ -44,6 +51,7 @@ module.exports = {
       spacing: {
         _6: "6px",
         _10: "10px",
+        _50: "50px",
         _73: "73px",
         _100: "100px",
         _102: "102px",
@@ -56,6 +64,7 @@ module.exports = {
         _200: "200px",
         _202: "202px",
         _205: "205px",
+        _260: "260px",
         _270: "270px",
         _314: "314px",
         _335: "335px",
@@ -66,5 +75,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("flowbite/plugin")],
 };
