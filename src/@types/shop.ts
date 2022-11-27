@@ -6,5 +6,6 @@ export interface Iimages {
     title: string;
     description: string;
     colors: string[];
+    price: number;
   }[];
 }
