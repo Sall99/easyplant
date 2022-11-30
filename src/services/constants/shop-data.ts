@@ -1,3 +1,27 @@
+export const benefits = [
+  {
+    img: "/svg/Truck.svg",
+    title: "Shipping",
+    description:
+      "At your doorstep within 4-15 business days. Delivery may be dealyed due to covid conditaion",
+  },
+  {
+    img: "/svg/SelfWatering.svg",
+    title: "Self-watering",
+    description: "Re-fill with water every 2 months",
+  },
+  {
+    img: "/svg/Pot.svg",
+    title: "Pot included",
+    description: "Potted in premium ceramic pot ",
+  },
+  {
+    img: "/svg/Pet.svg",
+    title: "Pet safe",
+    description: "This plant is pet friendly and safe",
+  },
+];
+
 export const smallPlantImages = [
   {
     id: 1,
