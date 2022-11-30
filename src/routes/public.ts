@@ -7,6 +7,10 @@ export const publicRoutes = {
     name: "Shop Plants",
     path: "/shop",
   },
+  product: {
+    name: "Product",
+    path: "/product/:id",
+  },
   plantCare: {
     name: "Plant Care",
     path: "/plant-care",

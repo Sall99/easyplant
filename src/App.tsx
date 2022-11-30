@@ -3,13 +3,11 @@ import { routesList } from "routes";
 
 function App() {
   return (
-    <div>
-      <Routes>
-        {routesList.map((route) => (
-          <Route key={route.path} path={route.path} element={route.element} />
-        ))}
-      </Routes>
-    </div>
+    <Routes>
+      {routesList.map((route) => (
+        <Route key={route.path} path={route.path} element={route.element} />
+      ))}
+    </Routes>
   );
 }
 

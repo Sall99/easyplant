@@ -1,5 +1,5 @@
 import { BaseLayout } from "components";
-import { Home, Shop } from "pages";
+import { Home, Shop, Product } from "pages";
 import { publicRoutes } from "./public";
 
 export const routesList = [
@@ -16,6 +16,14 @@ export const routesList = [
     element: (
       <BaseLayout hero={false}>
         <Shop />
+      </BaseLayout>
+    ),
+  },
+  {
+    path: publicRoutes.product.path,
+    element: (
+      <BaseLayout hero={false}>
+        <Product />
       </BaseLayout>
     ),
   },

@@ -9,3 +9,10 @@ export interface Iimages {
     price: number;
   }[];
 }
+
+export interface IAccordion {
+  data: {
+    title: string;
+    Content: React.FC;
+  }[];
+}

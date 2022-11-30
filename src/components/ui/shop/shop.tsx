@@ -3,29 +3,21 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Iimages } from "@types";
+import { Link } from "react-router-dom";
 
 export const ShopContainer = ({ items }: Iimages) => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 text-gray-200 gap-x-7 gap-y-_50">
-      {items.map(({ images, title, description, colors, price }, index) => {
+      {items.map(({ images, title, description, colors, price, id }, index) => {
         return (
-          <div key={index} className="relative">
+          <div key={index}>
             <div className="hover:cursor-pointer">
-              <Swiper
-                key={index}
-                spaceBetween={50}
-                slidesPerView={1}
-                // navigation={true}
-                modules={[Navigation]}
-              >
+              <Swiper key={index} modules={[Navigation]}>
                 {images.map((image, index) => (
-                  <SwiperSlide key={index}>
-                    <img
-                      key={index}
-                      src={image}
-                      alt={title}
-                      className="w-full"
-                    />
+                  <SwiperSlide key={index} className="w-full">
+                    <Link to={`/product/${id}`}>
+                      <img key={index} src={image} alt={title} />
+                    </Link>
                   </SwiperSlide>
                 ))}
               </Swiper>
