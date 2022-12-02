@@ -16,6 +16,9 @@
 
   /* Pink */
   --pink-100: rgba(248, 236, 228, 1);
+
+  /* Red */
+  --red-100: rgba(231, 101, 92, 1);
 }
 body {
   font-family: "Fraunces", serif;
@@ -30,6 +33,7 @@ table {
   margin: 0 auto;
   border-radius: 0.5rem;
   overflow: hidden;
+  font-size: 13px;
 }
 table tr th {
   padding: 0.5rem 1rem;
@@ -37,5 +41,4 @@ table tr th {
 table tr td {
   padding: 1rem;
   background-color: var(--gray-300);
-  font-size: 14px;
 }

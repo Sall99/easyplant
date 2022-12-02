@@ -1,3 +1,11 @@
+export const productGallery = [
+  "Gallery.png",
+  "Gallery2.png",
+  "Gallery3.png",
+  "Gallery4.png",
+  "Gallery5.png",
+  "Gallery6.png",
+];
 export const benefits = [
   {
     img: "/svg/Truck.svg",
