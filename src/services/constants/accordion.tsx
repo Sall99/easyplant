@@ -51,6 +51,18 @@ export const whatsIncludedData = [
     tile: "All plants arrive in healthy condition,or we’ll replace them for free",
   },
 ];
+export const WhatsIncluded = () => {
+  return (
+    <div className="flex flex-col gap-5">
+      {whatsIncludedData.map((item, index) => (
+        <div key={index} className="flex items-center">
+          <Icon name={item.icon} className="mr-2" />
+          <p className="">{item.tile}</p>
+        </div>
+      ))}
+    </div>
+  );
+};
 
 export const PlantBiography = () => {
   return (
@@ -74,7 +86,7 @@ export const SelfWatering = () => {
             </div>
           ))}
         </div>
-        <img src="/img/EasyPlant.png" alt="" />
+        <img src="/img/EasyPlant.png" alt="" className="w-full" />
       </div>
       <div className="text-gray-200">
         <h2 className="font-semibold py-5">easyplant benifits</h2>
@@ -87,29 +99,31 @@ export const SelfWatering = () => {
           ))}
         </div>
       </div>
-      <table className="table-auto w-full mt-5 table-rouded-corners">
+      <table className="table-auto w-full mt-5 table-rouded-corners font-Montserrat font-semibold">
         <thead>
           <tr className="bg-gray-500">
             <th className="text-left text-sm">Advantages</th>
-            <th className="text-left text-base text-green-100">easyplant</th>
+            <th className="text-left text-base text-green-100 font-bold italic">
+              easyplant
+            </th>
             <th className="text-left">Competitors</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>Water every</td>
-            <td>Every 2 Months</td>
-            <td>Every 2 Weeks</td>
+            <td className="text-green-100">Every 2 Months</td>
+            <td className="text-red-100">Every 2 Weeks</td>
           </tr>
           <tr>
             <td>Overwatering</td>
-            <td>Never</td>
-            <td>Common</td>
+            <td className="text-green-100">Never</td>
+            <td className="text-red-100">Common</td>
           </tr>
           <tr>
             <td>Underwatering</td>
-            <td>Never</td>
-            <td>Common</td>
+            <td className="text-green-100">Never</td>
+            <td className="text-red-100">Common</td>
           </tr>
           <tr>
             <td>Easy water check</td>
@@ -146,6 +160,6 @@ export const productAccordion = [
   },
   {
     title: "What's included",
-    Content: () => <div>Plant care</div>,
+    Content: WhatsIncluded,
   },
 ];

@@ -819,6 +819,9 @@ input[type="range"]::-ms-fill-lower {
 .mt-2 {
   margin-top: 0.5rem;
 }
+.mr-2 {
+  margin-right: 0.5rem;
+}
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -842,6 +845,9 @@ input[type="range"]::-ms-fill-lower {
 }
 .h-_187 {
   height: 187px;
+}
+.h-_60 {
+  height: 60px;
 }
 .h-5 {
   height: 1.25rem;
@@ -873,6 +879,9 @@ input[type="range"]::-ms-fill-lower {
 .w-1\/3 {
   width: 33.333333%;
 }
+.w-_60 {
+  width: 60px;
+}
 .w-_440 {
   width: 440px;
 }
@@ -903,8 +912,14 @@ input[type="range"]::-ms-fill-lower {
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 .flex-col {
   flex-direction: column;
@@ -932,6 +947,9 @@ input[type="range"]::-ms-fill-lower {
 }
 .gap-10 {
   gap: 2.5rem;
+}
+.gap-3 {
+  gap: 0.75rem;
 }
 .gap-4 {
   gap: 1rem;
@@ -1036,6 +1054,9 @@ input[type="range"]::-ms-fill-lower {
 .text-center {
   text-align: center;
 }
+.font-Montserrat {
+  font-family: Montserrat,  sans-serif;
+}
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -1051,6 +1072,10 @@ input[type="range"]::-ms-fill-lower {
 .text-_40 {
   font-size: 40px;
   line-height: 61.65px;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 .text-lg {
   font-size: 1.125rem;
@@ -1073,6 +1098,9 @@ input[type="range"]::-ms-fill-lower {
 .font-bold {
   font-weight: 700;
 }
+.italic {
+  font-style: italic;
+}
 .leading-5 {
   line-height: 1.25rem;
 }
@@ -1085,8 +1113,11 @@ input[type="range"]::-ms-fill-lower {
 .text-gray-200 {
   color: var(--gray-200);
 }
-.text-gray-500 {
-  color: var(--gray-500);
+.text-green-100 {
+  color: var(--green-100);
+}
+.text-red-100 {
+  color: var(--red-100);
 }
 .text-white {
   --tw-text-opacity: 1;
@@ -1098,9 +1129,6 @@ input[type="range"]::-ms-fill-lower {
 .text-red-400 {
   --tw-text-opacity: 1;
   color: rgb(249 128 128 / var(--tw-text-opacity));
-}
-.text-green-100 {
-  color: var(--green-100);
 }
 .opacity-90 {
   opacity: 0.9;
@@ -1137,6 +1165,9 @@ input[type="range"]::-ms-fill-lower {
 
   /* Pink */
   --pink-100: rgba(248, 236, 228, 1);
+
+  /* Red */
+  --red-100: rgba(231, 101, 92, 1);
 }
 body {
   font-family: "Fraunces", serif;
@@ -1151,6 +1182,7 @@ table {
   margin: 0 auto;
   border-radius: 0.5rem;
   overflow: hidden;
+  font-size: 13px;
 }
 table tr th {
   padding: 0.5rem 1rem;
@@ -1158,7 +1190,6 @@ table tr th {
 table tr td {
   padding: 1rem;
   background-color: var(--gray-300);
-  font-size: 14px;
 }
 .hover\:cursor-pointer:hover {
   cursor: pointer;

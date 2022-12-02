@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { allPlants, productAccordion } from "services";
+import { allPlants, productAccordion, productGallery } from "services";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -30,7 +30,7 @@ export const Product = () => {
   return (
     <div className="mt-_10 min-h-screen max-w-_1140 m-auto text-gray-200">
       {plant ? (
-        <div className="flex flex-col gap-10 md:flex-row">
+        <div className="flex flex-col justify-center gap-10 md:flex-row">
           <div className="w-1/3">
             <Swiper modules={[Navigation]}>
               {plant.images.map((image, index) => (
@@ -44,13 +44,22 @@ export const Product = () => {
                 </SwiperSlide>
               ))}
             </Swiper>
+            <div className="grid grid-cols-6 gap-3">
+              {productGallery.map((image, index) => (
+                <img
+                  key={index}
+                  src={`/img/${image}`}
+                  className="w-_60 h-_60 mt-5"
+                />
+              ))}
+            </div>
           </div>
           <div className="w-_440">
-            <h1 className="text-2xl font-bold">{plant.description}</h1>
-            <p className="text-gray-500 text-sm">{plant.description}</p>
-            <p className="text-gray-500 text-sm">${plant.price}</p>
+            <h1 className="text-2xl font-bold">{plant.title}</h1>
+            <p className="text-sm">{plant.description}</p>
+            <p className="text-xl font-bold">${plant.price}</p>
             <div className="mt-5">
-              <p className="text-sm">Desert Brown</p>
+              <p className="text-base">Desert Brown</p>
               <div className="flex items-center-2 gap-2 mt-2">
                 {plant.colors.map((color, index) => {
                   return (

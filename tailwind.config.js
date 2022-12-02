@@ -23,12 +23,16 @@ module.exports = {
         pink: {
           100: "var(--pink-100)",
         },
+        red: {
+          100: "var(--red-100)",
+        },
       },
       backgroundImage: {
         "hero-pattern": "url('/public/img/Hero.png')",
       },
       fontFamily: {
         fraunes: ["Fraunces", "serif"],
+        Montserrat: ["Montserrat", " sans-serif"],
       },
       fontSize: {
         _66: ["66px", "76px"],
@@ -53,6 +57,7 @@ module.exports = {
         _6: "6px",
         _10: "10px",
         _50: "50px",
+        _60: "60px",
         _73: "73px",
         _100: "100px",
         _102: "102px",
