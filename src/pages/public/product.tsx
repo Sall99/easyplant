@@ -4,7 +4,7 @@ import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Accordion, Button } from "components";
+import { Accordion, Button, Categories } from "components";
 import { benefits } from "services";
 
 export const Benefits = () => {
@@ -30,56 +30,59 @@ export const Product = () => {
   return (
     <div className="mt-_10 min-h-screen max-w-_1140 m-auto text-gray-200">
       {plant ? (
-        <div className="flex flex-col justify-center gap-10 md:flex-row">
-          <div className="w-1/3">
-            <Swiper modules={[Navigation]}>
-              {plant.images.map((image, index) => (
-                <SwiperSlide key={index}>
+        <div>
+          <div className="flex flex-col justify-center gap-10 md:flex-row">
+            <div className="w-1/3">
+              <Swiper modules={[Navigation]}>
+                {plant.images.map((image, index) => (
+                  <SwiperSlide key={index}>
+                    <img
+                      key={index}
+                      src={image}
+                      alt={plant.title}
+                      className="w-full"
+                    />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+              <div className="grid grid-cols-6 gap-3">
+                {productGallery.map((image, index) => (
                   <img
                     key={index}
-                    src={image}
-                    alt={plant.title}
-                    className="w-full"
+                    src={`/img/${image}`}
+                    className="w-_60 h-_60 mt-5"
                   />
-                </SwiperSlide>
-              ))}
-            </Swiper>
-            <div className="grid grid-cols-6 gap-3">
-              {productGallery.map((image, index) => (
-                <img
-                  key={index}
-                  src={`/img/${image}`}
-                  className="w-_60 h-_60 mt-5"
-                />
-              ))}
-            </div>
-          </div>
-          <div className="w-_440">
-            <h1 className="text-2xl font-bold">{plant.title}</h1>
-            <p className="text-sm">{plant.description}</p>
-            <p className="text-xl font-bold">${plant.price}</p>
-            <div className="mt-5">
-              <p className="text-base">Desert Brown</p>
-              <div className="flex items-center-2 gap-2 mt-2">
-                {plant.colors.map((color, index) => {
-                  return (
-                    <div
-                      key={index}
-                      style={{ backgroundColor: color }}
-                      className="w-5 h-5 rounded-full hover:cursor-pointer"
-                    ></div>
-                  );
-                })}
+                ))}
               </div>
             </div>
-            <div className="mt-5">
-              <Button label="Add to cart" className="w-full" />
-              <Benefits />
-              <div className="mt-5 w-full">
-                <Accordion data={productAccordion} />
+            <div className="w-_440">
+              <h1 className="text-2xl font-bold">{plant.title}</h1>
+              <p className="text-sm">{plant.description}</p>
+              <p className="text-xl font-bold">${plant.price}</p>
+              <div className="mt-5">
+                <p className="text-base">Desert Brown</p>
+                <div className="flex items-center-2 gap-2 mt-2">
+                  {plant.colors.map((color, index) => {
+                    return (
+                      <div
+                        key={index}
+                        style={{ backgroundColor: color }}
+                        className="w-5 h-5 rounded-full hover:cursor-pointer"
+                      ></div>
+                    );
+                  })}
+                </div>
+              </div>
+              <div className="mt-5">
+                <Button label="Add to cart" className="w-full" />
+                <Benefits />
+                <div className="mt-5 w-full">
+                  <Accordion data={productAccordion} />
+                </div>
               </div>
             </div>
           </div>
+          <Categories />
         </div>
       ) : (
         <div className="text-center text-gray-200">

@@ -21,6 +21,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.10",
     "flowbite": "^1.5.4",
+    "framer-motion": "^7.6.18",
     "lint-staged": "^13.0.3",
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^10.0.0",

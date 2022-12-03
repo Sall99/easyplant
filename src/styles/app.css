@@ -789,9 +789,6 @@ input[type="range"]::-ms-fill-lower {
 .mt-_100 {
   margin-top: 100px;
 }
-.mt-4 {
-  margin-top: 1rem;
-}
 .mt-_114 {
   margin-top: 114px;
 }
@@ -825,6 +822,9 @@ input[type="range"]::-ms-fill-lower {
 .mb-5 {
   margin-bottom: 1.25rem;
 }
+.mt-4 {
+  margin-top: 1rem;
+}
 .mt-_132 {
   margin-top: 132px;
 }
@@ -843,14 +843,14 @@ input[type="range"]::-ms-fill-lower {
 .hidden {
   display: none;
 }
-.h-_187 {
-  height: 187px;
-}
 .h-_60 {
   height: 60px;
 }
 .h-5 {
   height: 1.25rem;
+}
+.h-_187 {
+  height: 187px;
 }
 .h-4 {
   height: 1rem;
@@ -863,9 +863,6 @@ input[type="range"]::-ms-fill-lower {
 }
 .min-h-screen {
   min-height: 100vh;
-}
-.w-_162 {
-  width: 162px;
 }
 .w-_409 {
   width: 409px;
@@ -891,6 +888,9 @@ input[type="range"]::-ms-fill-lower {
 .w-28 {
   width: 7rem;
 }
+.w-_162 {
+  width: 162px;
+}
 .w-4 {
   width: 1rem;
 }
@@ -909,17 +909,17 @@ input[type="range"]::-ms-fill-lower {
 .cursor-pointer {
   cursor: pointer;
 }
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
-.grid-cols-6 {
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 .flex-col {
   flex-direction: column;
@@ -939,11 +939,11 @@ input[type="range"]::-ms-fill-lower {
 .gap-8 {
   gap: 2rem;
 }
-.gap-5 {
-  gap: 1.25rem;
-}
 .gap-2 {
   gap: 0.5rem;
+}
+.gap-5 {
+  gap: 1.25rem;
 }
 .gap-10 {
   gap: 2.5rem;
@@ -1203,12 +1203,12 @@ table tr td {
 }
 @media (min-width: 640px) {
 
-  .sm\:mt-14 {
-    margin-top: 3.5rem;
-  }
-
   .sm\:mt-_172 {
     margin-top: 172px;
+  }
+
+  .sm\:mt-14 {
+    margin-top: 3.5rem;
   }
 
   .sm\:mt-4 {
@@ -1221,6 +1221,10 @@ table tr td {
 
   .sm\:flex {
     display: flex;
+  }
+
+  .sm\:grid {
+    display: grid;
   }
 
   .sm\:hidden {
@@ -1241,6 +1245,10 @@ table tr td {
 
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .sm\:flex-row {
