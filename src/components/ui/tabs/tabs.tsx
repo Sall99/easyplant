@@ -12,16 +12,17 @@ export const Tabs: FC<ITabs> = ({ tabs }) => {
 
   const handleTabClick = (index: number) => {
     setActiveTab(index);
-    // TODO: update url with query params  with react-router-dom
-
     const query = new URLSearchParams(location.search);
-    query.set("category", index.toString());
+    query.set("category", tabs[index].category);
     window.history.pushState({}, "", `${location.pathname}?${query}`);
   };
 
   useEffect(() => {
     if (tab) {
-      setActiveTab(Number(tab));
+      const index = tabs.findIndex(
+        (tab) => tab.category === query.get("category")
+      );
+      setActiveTab(index);
     }
   }, [tab]);
 
