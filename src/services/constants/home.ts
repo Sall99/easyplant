@@ -19,10 +19,10 @@ export const homeHeader = [
 ];
 
 export const shopIndoorItems = [
-  { img: "/img/ShopSmall.png", name: "Shop small" },
-  { img: "/img/ShopMedium.png", name: "Shop medium" },
-  { img: "/img/ShopLarge.png", name: "Shop large" },
-  { img: "/img/ShopHuge.png", name: "Shop huge" },
+  { img: "/img/ShopSmall.png", name: "Shop small", id: 0 },
+  { img: "/img/ShopMedium.png", name: "Shop medium", id: 1 },
+  { img: "/img/ShopLarge.png", name: "Shop large", id: 2 },
+  { img: "/img/ShopHuge.png", name: "Shop huge", id: 3 },
 ];
 
 export const selfWateringItems = [

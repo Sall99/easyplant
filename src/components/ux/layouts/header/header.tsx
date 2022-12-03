@@ -2,12 +2,16 @@ import { FC } from "react";
 import { IHeader } from "@types";
 import clsx from "clsx";
 import { Icon, Button } from "components";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { navLinks } from "services";
+import { publicRoutes } from "routes";
 
 export const Header: FC<IHeader> = ({ hero = true }) => {
+  const navigate = useNavigate();
   const handleClick = () => {
-    console.log("clicked");
+    navigate({
+      pathname: publicRoutes.shopPlants.path,
+    });
   };
   return (
     <header

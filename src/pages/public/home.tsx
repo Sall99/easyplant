@@ -1,5 +1,5 @@
-import { Icon } from "components";
-import { homeHeader, selfWateringItems, shopIndoorItems } from "services";
+import { Categories, Icon } from "components";
+import { homeHeader, selfWateringItems } from "services";
 
 export const Home = () => {
   return (
@@ -25,21 +25,7 @@ export const Home = () => {
         <p className="sm:hidden text-center mt-_10">
           Our plants are picked carefully to fit any home condition
         </p>
-        <div className=" grid grid-cols-2 sm:flex flex-wrap justify-center items-center gap-5 mt-_10 sm:mt-14">
-          {shopIndoorItems.map(({ name, img }, key) => (
-            <div
-              key={key}
-              className="flex-col justify-center items-center text-center"
-            >
-              <img
-                src={img}
-                alt={name}
-                className="w-_162 h-_187 sm:w-full sm:h-full"
-              />
-              <p className="text-base font-semibold mt-4">{name}</p>
-            </div>
-          ))}
-        </div>
+        <Categories />
       </div>
       <div className="mt-_114 text-gray-200 px-8">
         <h2 className="text-2xl sm:text-_40 font-semibold text-center mb-7">
