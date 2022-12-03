@@ -4,19 +4,19 @@ import { shopIndoorItems } from "services";
 
 export const Categories = () => {
   const navigate = useNavigate();
-  const handleClick = (id: number) => {
+  const handleClick = (category: string) => {
     navigate({
       pathname: publicRoutes.shopPlants.path,
-      search: `?category=${id}`,
+      search: `?category=${category}`,
     });
   };
   return (
     <div className="grid grid-cols-2 sm:grid-cols-4  justify-center items-center gap-5 mt-_10 sm:mt-14">
-      {shopIndoorItems.map(({ name, img, id }, key) => (
+      {shopIndoorItems.map(({ name, img, category }, key) => (
         <div
           key={key}
           className="flex-col justify-center items-center text-center hover:cursor-pointer"
-          onClick={() => handleClick(id)}
+          onClick={() => handleClick(category)}
         >
           <img
             src={img}

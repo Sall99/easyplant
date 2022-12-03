@@ -2,6 +2,7 @@ import { useState, FC, useEffect } from "react";
 import { ITabs } from "@types";
 import clsx from "clsx";
 import { useLocation } from "react-router-dom";
+import { goToTop } from "utils";
 
 export const Tabs: FC<ITabs> = ({ tabs }) => {
   const [activeTab, setActiveTab] = useState(0);
@@ -24,6 +25,7 @@ export const Tabs: FC<ITabs> = ({ tabs }) => {
       );
       setActiveTab(index);
     }
+    goToTop();
   }, [tab]);
 
   return (
