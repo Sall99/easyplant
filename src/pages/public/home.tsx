@@ -1,10 +1,16 @@
+import { motion } from "framer-motion";
 import { Categories, Icon } from "components";
 import { homeHeader, selfWateringItems } from "services";
 
 export const Home = () => {
   return (
-    <section className="mt-_73">
-      <div className="flex items-center justify-center gap-8 sm:gap-_100 px-8">
+    <motion.section
+      className="mt-_73"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1, delay: 0.5 }}
+    >
+      <motion.div className="flex items-center justify-center gap-8 sm:gap-_100 px-8">
         {homeHeader.map(({ title, subtitle, icon }, key) => (
           <div
             key={key}
@@ -17,7 +23,7 @@ export const Home = () => {
             <p className="text-sm hidden sm:block">{subtitle}</p>
           </div>
         ))}
-      </div>
+      </motion.div>
       <div className="text-gray-200 flex flex-col items-center justify-center mt-_100 px-8">
         <h2 className="text-2xl sm:text-_40 font-semibold">
           Shop indoor plants
@@ -90,6 +96,6 @@ export const Home = () => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
