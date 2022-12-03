@@ -761,8 +761,14 @@ input[type="range"]::-ms-fill-lower {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.visible {
+  visibility: visible;
+}
 .absolute {
   position: absolute;
+}
+.sticky {
+  position: sticky;
 }
 .-top-4 {
   top: -1rem;
