@@ -10,7 +10,19 @@ export const Home = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 1, delay: 0.5 }}
     >
-      <motion.div className="flex items-center justify-center gap-8 sm:gap-_100 px-8">
+      <motion.div
+        className="flex items-center justify-center gap-8 sm:gap-_100 px-8"
+        whileInView={{
+          opacity: 1,
+          transition: { duration: 0.5, delay: 0.1 },
+          transitionEnd: { opacity: 1 },
+        }}
+        initial={{ opacity: 0 }}
+        transition={{
+          duration: 0.25,
+          delay: 0.1,
+        }}
+      >
         {homeHeader.map(({ title, subtitle, icon }, key) => (
           <div
             key={key}
@@ -24,7 +36,8 @@ export const Home = () => {
           </div>
         ))}
       </motion.div>
-      <div className="text-gray-200 flex flex-col items-center justify-center mt-_100 px-8">
+
+      <motion.div className="text-gray-200 flex flex-col items-center justify-center mt-_100 px-8">
         <h2 className="text-2xl sm:text-_40 font-semibold">
           Shop indoor plants
         </h2>
@@ -32,14 +45,15 @@ export const Home = () => {
           Our plants are picked carefully to fit any home condition
         </p>
         <Categories />
-      </div>
-      <div className="mt-_114 text-gray-200 px-8">
+      </motion.div>
+
+      <motion.div className="mt-_114 text-gray-200 px-8">
         <h2 className="text-2xl sm:text-_40 font-semibold text-center mb-7">
           How self-watering works?
         </h2>
         <div className="flex md:items-center md:justify-center sm:gap-4 flex-col md:flex-row">
           {selfWateringItems.map(({ name, img, icon }, key) => (
-            <div
+            <motion.div
               key={key}
               className="flex flex-col md:items-center md:justify-center"
             >
@@ -50,7 +64,7 @@ export const Home = () => {
                 </div>
                 <img src={img} alt={name} className="hidden md:block" />
               </div>
-            </div>
+            </motion.div>
           ))}
           <img
             src="/img/Easy.png"
@@ -58,7 +72,7 @@ export const Home = () => {
             className="sm:hidden"
           />
         </div>
-      </div>
+      </motion.div>
       <div className="max-w-_1140 md:h-_371 md:bg-gray-300 m-auto mt-8 sm:mt-_172 text-gray-200 rounded">
         <div className="sm:hidden px-8 sm:px-0">
           <h2 className="text-2xl sm:text-_40 font-semibold text-center text-gray-200">

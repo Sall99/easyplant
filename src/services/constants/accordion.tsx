@@ -163,3 +163,125 @@ export const productAccordion = [
     Content: WhatsIncluded,
   },
 ];
+
+export const WhyDoPlantShipsDifferently = () => {
+  return (
+    <div className="">
+      <p>
+        You never know what adventures a plant can get into making its way to
+        your home! Most of our small and medium plants ship in their nursery
+        grow pot to allow for a safe and comfy ride all the way to your
+        doorstep. <br /> Allowing plants to stay in their original pot while
+        being shipped helps reduce the risk of stress and shock that could
+        happen if they were to be placed in a new pot before leaving the
+        greenhouse. Most of our younger, mini and x-small plants ship directly
+        potted; they don’t seem to mind and we take extra precautions here.{" "}
+        <br /> In our retail locations, we offer to freshly pot plants in-store
+        for our customers. Plants potted in our shops have a shorter journey to
+        your home so we love offering this service for local plant parents.
+      </p>
+    </div>
+  );
+};
+export const HowWillMyPlantArrive = () => {
+  return (
+    <div className="">
+      <p>
+        You never know what adventures a plant can get into making its way to
+        your home! Most of our small and medium plants ship in their nursery
+        grow pot to allow for a safe and comfy ride all the way to your
+        doorstep. <br /> Allowing plants to stay in their original pot while
+        being shipped helps reduce the risk of stress and shock that could
+        happen if they were to be placed in a new pot before leaving the
+        greenhouse. Most of our younger, mini and x-small plants ship directly
+        potted; they don’t seem to mind and we take extra precautions here.{" "}
+        <br /> In our retail locations, we offer to freshly pot plants in-store
+        for our customers. Plants potted in our shops have a shorter journey to
+        your home so we love offering this service for local plant parents.
+      </p>
+    </div>
+  );
+};
+
+export const WhatIfMyOrderIsAGift = () => {
+  return (
+    <div className="">
+      <p>
+        You never know what adventures a plant can get into making its way to
+        your home! Most of our small and medium plants ship in their nursery
+        grow pot to allow for a safe and comfy ride all the way to your
+        doorstep. <br /> Allowing plants to stay in their original pot while
+        being shipped helps reduce the risk of stress and shock that could
+        happen if they were to be placed in a new pot before leaving the
+        greenhouse. <br /> Most of our younger, mini and x-small plants ship
+        directly potted; they don’t seem to mind and we take extra precautions
+        here. In our retail locations, we offer to freshly pot plants in-store
+        for our customers. Plants potted in our shops have a shorter journey to
+        your home so we love offering this service for local plant parents.
+      </p>
+    </div>
+  );
+};
+
+export const WhyDoesMyPlanterNotHaveADrainageHole = () => {
+  return (
+    <div className="">
+      <p>
+        You never know what adventures a plant can get into making its way to
+        your home! Most of our small and medium plants ship in their nursery
+        grow pot to allow for a safe and comfy ride all the way to your
+        doorstep. <br /> Allowing plants to stay in their original pot while
+        being shipped helps reduce the risk of stress and shock that could
+        happen if they were to be placed in a new pot before leaving the
+        greenhouse. Most of our younger, mini and x-small plants ship directly
+        potted; they don’t seem to mind and we take extra precautions here.{" "}
+        <br /> In our retail locations, we offer to freshly pot plants in-store
+        for our customers. Plants potted in our shops have a shorter journey to
+        your home so we love offering this service for local plant parents.
+      </p>
+    </div>
+  );
+};
+
+export const DoIhaveToRepotMyPlantOnceItArrives = () => {
+  return (
+    <div className="">
+      <p>
+        You never know what adventures a plant can get into making its way to
+        your home! Most of our small and medium plants ship in their nursery
+        grow pot to allow for a safe and comfy ride all the way to your
+        doorstep. <br /> Allowing plants to stay in their original pot while
+        being shipped helps reduce the risk of stress and shock that could
+        happen if they were to be placed in a new pot before leaving the
+        greenhouse. <br /> Most of our younger, mini and x-small plants ship
+        directly potted; they don’t seem to mind and we take extra precautions
+        here. In our retail locations, we offer to freshly pot plants in-store
+        for our customers. Plants potted in our shops have a shorter journey to
+        your home so we love offering this service for local plant parents.
+      </p>
+    </div>
+  );
+};
+
+export const faqAccordion = [
+  {
+    title: "How will my plant arrive?",
+    Content: HowWillMyPlantArrive,
+  },
+  {
+    title: "What if my order is a gift?",
+    Content: WhatIfMyOrderIsAGift,
+  },
+  {
+    title: "Why does my planter not have a drainage hole?",
+    Content: WhyDoesMyPlanterNotHaveADrainageHole,
+  },
+  {
+    title: "Do I have to repot my plant once it arrives?",
+    Content: DoIhaveToRepotMyPlantOnceItArrives,
+  },
+  {
+    title: "Why do some plants ship differently?",
+    Content: WhyDoPlantShipsDifferently,
+  },
+];

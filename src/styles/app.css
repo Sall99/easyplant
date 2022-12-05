@@ -761,14 +761,8 @@ input[type="range"]::-ms-fill-lower {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.visible {
-  visibility: visible;
-}
 .absolute {
   position: absolute;
-}
-.sticky {
-  position: sticky;
 }
 .-top-4 {
   top: -1rem;
@@ -786,6 +780,9 @@ input[type="range"]::-ms-fill-lower {
   margin-left: auto;
   margin-right: auto;
 }
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
 .mt-_73 {
   margin-top: 73px;
 }
@@ -797,9 +794,6 @@ input[type="range"]::-ms-fill-lower {
 }
 .mt-_114 {
   margin-top: 114px;
-}
-.mb-7 {
-  margin-bottom: 1.75rem;
 }
 .mb-4 {
   margin-bottom: 1rem;
@@ -855,6 +849,9 @@ input[type="range"]::-ms-fill-lower {
 .h-5 {
   height: 1.25rem;
 }
+.h-6 {
+  height: 1.5rem;
+}
 .h-_187 {
   height: 187px;
 }
@@ -894,6 +891,9 @@ input[type="range"]::-ms-fill-lower {
 .w-28 {
   width: 7rem;
 }
+.w-6 {
+  width: 1.5rem;
+}
 .w-_162 {
   width: 162px;
 }
@@ -908,6 +908,12 @@ input[type="range"]::-ms-fill-lower {
 }
 .max-w-md {
   max-width: 28rem;
+}
+.flex-1 {
+  flex: 1 1 0%;
+}
+.grow {
+  flex-grow: 1;
 }
 .table-auto {
   table-layout: auto;
@@ -1057,13 +1063,13 @@ input[type="range"]::-ms-fill-lower {
 .font-Montserrat {
   font-family: Montserrat,  sans-serif;
 }
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 .text-base {
   font-size: 1rem;
@@ -1143,6 +1149,9 @@ input[type="range"]::-ms-fill-lower {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+.duration-500 {
+  transition-duration: 500ms;
 }
 .duration-300 {
   transition-duration: 300ms;
@@ -1260,14 +1269,14 @@ table tr td {
     padding-right: 0px;
   }
 
-  .sm\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
   .sm\:text-_40 {
     font-size: 40px;
     line-height: 61.65px;
+  }
+
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .sm\:text-_66 {
