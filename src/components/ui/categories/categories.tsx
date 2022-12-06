@@ -12,7 +12,7 @@ export const Categories = () => {
     });
   };
   return (
-    <motion.div className="grid grid-cols-2 sm:grid-cols-4  justify-center items-center gap-5 mt-_10 sm:mt-14">
+    <motion.div className="grid grid-cols-2 sm:grid-cols-4  justify-center items-center gap-5 mt-_10 sm:mt-5">
       {shopIndoorItems.map(({ name, img, category }, key) => (
         <motion.div
           key={key}
