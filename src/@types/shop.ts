@@ -15,4 +15,5 @@ export interface IAccordion {
     title: string;
     Content: React.FC;
   }[];
+  line?: "top" | "bottom";
 }

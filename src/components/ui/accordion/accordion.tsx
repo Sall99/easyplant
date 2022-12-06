@@ -3,8 +3,9 @@ import { Disclosure } from "@headlessui/react";
 import { IAccordion } from "@types";
 import { Icon } from "../form";
 import { motion } from "framer-motion";
+import clsx from "clsx";
 
-export const Accordion: FC<IAccordion> = ({ data }) => {
+export const Accordion: FC<IAccordion> = ({ data, line = "top" }) => {
   return (
     <div className="w-full">
       <div className="mx-auto w-full max-w-md  text-gray-200">
@@ -12,15 +13,15 @@ export const Accordion: FC<IAccordion> = ({ data }) => {
           <Disclosure key={index}>
             {({ open }) => (
               <>
-                <div className="border-b border-gray-300 mb-5"></div>
-                <Disclosure.Button className="flex w-full justify-between items-center py-2 text-left font-semibold text-lg transition duration-500 ease-in-out">
+                <Disclosure.Button
+                  className={clsx(
+                    "flex w-full justify-between items-center py-2 text-left font-semibold text-base sm:text-lg transition duration-500 ease-in-out border-gray-300 mb-5",
+                    line === "top" && "border-t",
+                    line === "bottom" && "border-b"
+                  )}
+                >
                   <span>{title}</span>
-                  {/* add icon motion */}
-                  {/* <Icon
-                    name={open ? "Minus" : "Add"}
-                    // add motion transition to icon
-                  
-                  /> */}
+
                   <motion.div transition={{ duration: 0.5 }}>
                     <Icon
                       name={open ? "Minus" : "Add"}
