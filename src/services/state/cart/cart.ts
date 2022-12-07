@@ -25,6 +25,10 @@ export const cartSlice = createSlice({
       } else {
         state.items.push({ ...action.payload, amount: 1 });
       }
+      state.subTotal = state.items.reduce(
+        (acc, item) => acc + item.price * item.amount,
+        0
+      );
     },
     incrementAmount: (state, action) => {
       const { id } = action.payload;
@@ -32,6 +36,10 @@ export const cartSlice = createSlice({
       if (item) {
         item.amount += 1;
       }
+      state.subTotal = state.items.reduce(
+        (acc, item) => acc + item.price * item.amount,
+        0
+      );
     },
     decrementAmount: (state, action) => {
       const { id } = action.payload;
@@ -42,6 +50,10 @@ export const cartSlice = createSlice({
           state.items = state.items.filter((item) => item.id !== id);
         }
       }
+      state.subTotal = state.items.reduce(
+        (acc, item) => acc + item.price * item.amount,
+        0
+      );
     },
   },
 });
