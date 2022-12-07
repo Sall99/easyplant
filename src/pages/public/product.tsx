@@ -1,11 +1,17 @@
 import { useParams } from "react-router-dom";
-import { allPlants, productAccordion, productGallery } from "services";
+import {
+  addToCart,
+  allPlants,
+  productAccordion,
+  productGallery,
+} from "services";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Accordion, Button, Categories } from "components";
 import { benefits } from "services";
+import { useDispatch } from "react-redux";
 
 export const Benefits = () => {
   return (
@@ -26,7 +32,7 @@ export const Benefits = () => {
 export const Product = () => {
   const { id } = useParams<{ id: string }>();
   const plant = allPlants.find((plant) => plant.id === Number(id));
-
+  const dispatch = useDispatch();
   return (
     <div className="sm:mt-_10 min-h-screen max-w-_1140 m-auto text-gray-200">
       {plant ? (
@@ -74,7 +80,11 @@ export const Product = () => {
                 </div>
               </div>
               <div className="mt-5">
-                <Button label="Add to cart" className="w-full" />
+                <Button
+                  label="Add to cart"
+                  className="w-full"
+                  onClick={() => dispatch(addToCart(plant))}
+                />
                 <Benefits />
                 <div className="mt-5 w-full">
                   <Accordion data={productAccordion} />
