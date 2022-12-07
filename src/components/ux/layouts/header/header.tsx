@@ -3,13 +3,24 @@ import { Link, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { IHeader } from "@types";
 import clsx from "clsx";
-import { Icon, Button } from "components";
-
+import { Icon, Button, Cart } from "components";
 import { navLinks } from "services";
 import { publicRoutes } from "routes";
+import { useDispatch, useSelector } from "react-redux";
+import { toggleCart, RootState } from "services";
 
 export const Header: FC<IHeader> = ({ hero = true }) => {
+  const dispatch = useDispatch();
   const navigate = useNavigate();
+  const cart = useSelector((state: RootState) => state.cart);
+  const { displayCart } = cart;
+
+  if (displayCart) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "unset";
+  }
+
   const handleClick = () => {
     navigate({
       pathname: publicRoutes.shopPlants.path,
@@ -46,11 +57,17 @@ export const Header: FC<IHeader> = ({ hero = true }) => {
             ))}
           </ul>
         </div>
-        <motion.div whileHover={{ scale: 1.1 }}>
-          <Link to="/cart" className="flex items-center gap-2">
-            <Icon name="Cart" /> <p>Cart</p>
-          </Link>
-        </motion.div>
+        <div>
+          <motion.div whileHover={{ scale: 1.1 }}>
+            <div
+              className="flex items-center gap-2 hover:cursor-pointer"
+              onClick={() => dispatch(toggleCart())}
+            >
+              <Icon name="Cart" /> <p>Cart</p>
+            </div>
+          </motion.div>
+          <Cart />
+        </div>
       </motion.div>
       {hero ? (
         <div className="sm:w-_592 m-auto mt-_132 flex flex-col justify-center items-center gap-9">

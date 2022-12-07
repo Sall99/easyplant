@@ -20,13 +20,18 @@
   /* Red */
   --red-100: rgba(231, 101, 92, 1);
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+}
 body {
   font-family: "Fraunces", serif;
   background-color: var(--gray-400);
 }
 
 /* Table */
-/* Todo: add border radius to table */
 table {
   border-collapse: collapse;
   width: 100%;

@@ -1,13 +1,15 @@
+export interface IPlant {
+  id: number;
+  images: string[];
+  alt: string;
+  title: string;
+  description: string;
+  colors: string[];
+  price: number;
+  amount?: number;
+}
 export interface Iimages {
-  items: {
-    id: number;
-    images: string[];
-    alt: string;
-    title: string;
-    description: string;
-    colors: string[];
-    price: number;
-  }[];
+  items: IPlant[];
 }
 
 export interface IAccordion {
@@ -16,4 +18,18 @@ export interface IAccordion {
     Content: React.FC;
   }[];
   line?: "top" | "bottom";
+}
+
+export interface ICart {
+  items: {
+    id: number;
+    images: string[];
+    alt: string;
+    title: string;
+    description: string;
+    colors: string[];
+    price: number;
+    amount: number;
+  }[];
+  displayCart: boolean;
 }
