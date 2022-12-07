@@ -4,6 +4,7 @@ import { ICart, IPlant } from "@types";
 const initialState = {
   items: [] as IPlant[],
   displayCart: false,
+  subTotal: 0,
 } as ICart;
 
 export const cartSlice = createSlice({
@@ -37,10 +38,19 @@ export const cartSlice = createSlice({
       const item = state.items.find((item) => item.id === id);
       if (item) {
         item.amount -= 1;
+        if (item.amount === 0) {
+          state.items = state.items.filter((item) => item.id !== id);
+        }
       }
     },
   },
 });
 
 export const cartReducer = cartSlice.reducer;
-export const { toggleCart, hideCart, addToCart } = cartSlice.actions;
+export const {
+  toggleCart,
+  hideCart,
+  addToCart,
+  incrementAmount,
+  decrementAmount,
+} = cartSlice.actions;

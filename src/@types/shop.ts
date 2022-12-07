@@ -20,16 +20,23 @@ export interface IAccordion {
   line?: "top" | "bottom";
 }
 
+export interface ICartItems {
+  id: number;
+  images: string[];
+  alt: string;
+  title: string;
+  description: string;
+  colors: string[];
+  price: number;
+  amount: number;
+}
+
 export interface ICart {
-  items: {
-    id: number;
-    images: string[];
-    alt: string;
-    title: string;
-    description: string;
-    colors: string[];
-    price: number;
-    amount: number;
-  }[];
+  items: ICartItems[];
   displayCart: boolean;
+  subTotal: number;
+}
+
+export interface ICartProduct {
+  item: ICartItems;
 }
