@@ -1,5 +1,6 @@
 import { BaseLayout } from "components";
 import { Home, Shop, Product, Faq } from "pages";
+import PlantCare from "pages/public/plantCare";
 import { publicRoutes } from "./public";
 
 export const routesList = [
@@ -32,6 +33,14 @@ export const routesList = [
     element: (
       <BaseLayout hero={false}>
         <Faq />
+      </BaseLayout>
+    ),
+  },
+  {
+    path: publicRoutes.plantCare.path,
+    element: (
+      <BaseLayout hero={false}>
+        <PlantCare />
       </BaseLayout>
     ),
   },
