@@ -64,9 +64,11 @@ export const Cart = () => {
         {items.length > 0 ? (
           <div className="flex flex-col justify-between h-full">
             <div className="flex flex-col gap-4 p-4 py-8 justify-between h-full">
-              {items.map((item) => (
-                <CartProduct key={item.id} item={item} />
-              ))}
+              <div className="overflow-x-auto pr-4">
+                {items.map((item) => (
+                  <CartProduct key={item.id} item={item} />
+                ))}
+              </div>
               <div>
                 <hr className="border-gray-600 border-opacity-1" />
                 <div>
@@ -79,7 +81,11 @@ export const Cart = () => {
                     <span>USD${subTotal}</span>
                   </p>
                 </div>
-                <Button className="w-full mt-4" label="Continue shopping" />
+                <Button
+                  className="w-full mt-4"
+                  label="Continue shopping"
+                  variant="secondary"
+                />
                 <Button className="w-full mt-4" label="Checkout" />
                 <p className="text-center mt-5">
                   Got any questions?{" "}

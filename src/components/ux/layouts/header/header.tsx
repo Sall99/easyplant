@@ -84,21 +84,12 @@ export const Header: FC<IHeader> = ({ hero = true }) => {
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            <motion.div
-              whileHover={{
-                scale: 0.9,
-              }}
-              whileTap={{
-                scale: 0.8,
-              }}
-            >
-              <Button
-                label="Shop plants"
-                type="button"
-                onClick={handleClick}
-                className="w-60"
-              />
-            </motion.div>
+            <Button
+              label="Shop plants"
+              type="button"
+              onClick={handleClick}
+              className="w-60"
+            />
           </motion.div>
         </div>
       ) : null}

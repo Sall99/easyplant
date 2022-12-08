@@ -1017,6 +1017,9 @@ input[type="range"]::-ms-fill-lower {
 .gap-y-_50 {
   row-gap: 50px;
 }
+.overflow-x-auto {
+  overflow-x: auto;
+}
 .rounded {
   border-radius: 0.25rem;
 }
@@ -1132,6 +1135,9 @@ input[type="range"]::-ms-fill-lower {
 }
 .pb-2 {
   padding-bottom: 0.5rem;
+}
+.pr-4 {
+  padding-right: 1rem;
 }
 .text-left {
   text-align: left;
@@ -1275,7 +1281,6 @@ input[type="range"]::-ms-fill-lower {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* overflow: hidden; */
 }
 body {
   font-family: "Fraunces", serif;
@@ -1298,16 +1303,34 @@ table tr td {
   padding: 1rem;
   background-color: var(--gray-300);
 }
+
+* ::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--gray-400);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gray-100);
+  border-radius: 50px;
+}
+
 .hover\:cursor-pointer:hover {
   cursor: pointer;
 }
+
 .hover\:opacity-90:hover {
   opacity: 0.9;
 }
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
+
 @media (min-width: 640px) {
 
   .sm\:mt-_132 {
@@ -1419,6 +1442,7 @@ table tr td {
     font-weight: 600;
   }
 }
+
 @media (min-width: 768px) {
 
   .md\:absolute {
