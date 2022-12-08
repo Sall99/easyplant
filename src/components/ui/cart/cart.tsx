@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC, useEffect } from "react";
 import { ICartProduct } from "@types";
 import clsx from "clsx";
 import { useDispatch, useSelector } from "react-redux";
@@ -9,10 +9,12 @@ import {
   RootState,
 } from "services";
 import { Button } from "../form";
+import { useNavigate } from "react-router-dom";
 
 export const CartProduct: FC<ICartProduct> = ({ item }) => {
   const { id, images, title, description, price, amount } = item;
   const dispatch = useDispatch();
+
   return (
     <div className="flex justify-between items-center text-gray-200">
       <div className="flex items-center">
@@ -48,8 +50,25 @@ export const CartProduct: FC<ICartProduct> = ({ item }) => {
 
 export const Cart = () => {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const cart = useSelector((state: RootState) => state.cart);
   const { displayCart, items, subTotal } = cart;
+  const handleContinueShopping = () => {
+    dispatch(hideCart());
+    navigate("/shop-plants");
+  };
+
+  window.onpopstate = () => {
+    if (displayCart) {
+      dispatch(hideCart());
+    }
+  };
+
+  useEffect(() => {
+    if (displayCart) {
+      dispatch(hideCart());
+    }
+  }, []);
 
   return (
     <div>
@@ -85,6 +104,7 @@ export const Cart = () => {
                   className="w-full mt-4"
                   label="Continue shopping"
                   variant="secondary"
+                  onClick={handleContinueShopping}
                 />
                 <Button className="w-full mt-4" label="Checkout" />
                 <p className="text-center mt-5">

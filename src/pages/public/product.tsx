@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import {
   addToCart,
@@ -12,6 +13,7 @@ import "swiper/css/navigation";
 import { Accordion, Button, Categories } from "components";
 import { benefits } from "services";
 import { useDispatch } from "react-redux";
+import { goToTop } from "utils";
 
 export const Benefits = () => {
   return (
@@ -33,6 +35,11 @@ export const Product = () => {
   const { id } = useParams<{ id: string }>();
   const plant = allPlants.find((plant) => plant.id === Number(id));
   const dispatch = useDispatch();
+
+  useEffect(() => {
+    goToTop();
+  }, []);
+
   return (
     <div className="sm:mt-_10 min-h-screen max-w-_1140 m-auto text-gray-200">
       {plant ? (

@@ -1438,6 +1438,16 @@ table tr td {
     line-height: 76px;
   }
 
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .sm\:font-semibold {
     font-weight: 600;
   }
